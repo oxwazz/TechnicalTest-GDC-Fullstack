@@ -1,8 +1,8 @@
 <template>
 <div class="constainer mx-auto mt-5" style="width: 600px">
-  <h3>> >Pencarian Info Team Sepakbola</h3>
+  <h3>>> Pencarian Info Team Sepakbola</h3>
   <hr>
-  <input v-model="nilai" type="text" class="form-control" placeholder="masukkan nama team sepakbola" aria-label="masukkan nama team sepakbola" aria-describedby="basic-addon1" style="width: 600px">
+  <input v-model="nilai" type="text" class="form-control" placeholder="masukkan nama team sepakbola" aria-label="masukkan nama team" aria-describedby="basic-addon1" style="width: 600px">
   <br>
   <button @click="getData" class="btn btn-primary" style="width: 600px"> Cari Info Team</button>
   <hr>
